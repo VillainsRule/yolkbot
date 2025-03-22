@@ -2,7 +2,7 @@
 export const Items = [
     {
         "id": 1001,
-        "name": "Ball Capsss test hi",
+        "name": "Ball Cap",
         "price": 0,
         "item_type_id": 1,
         "item_type_name": "Hat",
