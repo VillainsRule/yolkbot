@@ -23,3 +23,5 @@ fs.writeFileSync(
     path.join(import.meta.dirname, '..', '..', 'src', 'constants', 'maps.js'),
     `/* eslint-disable */\nexport const Maps = ${JSON.stringify(parsed, null, 4)};`
 );
+
+console.log('updated maps');
