@@ -23,3 +23,5 @@ fs.writeFileSync(
     path.join(import.meta.dirname, '..', '..', 'src', 'constants', 'items.js'),
     `/* eslint-disable */\nexport const Items = ${JSON.stringify(parsed, null, 4)};`
 );
+
+console.log('updated items');
